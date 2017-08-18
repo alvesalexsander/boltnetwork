@@ -1,0 +1,146 @@
+html, body {
+  font-family: "Oxygen", sans-serif; 
+  font-weight: 300; 
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 970px;
+}
+
+.jumbotron{
+  background-color: #000000;
+  margin-bottom: 0;
+}
+
+.jumbotron .container .header .col-md-6:first-child{
+  text-align: right;
+}
+
+.jumbotron .container .header a{
+  margin: 0 15px 0 0;
+  text-decoration: none;
+}
+
+.btn{
+  color: #FFF;
+  padding: 10px 15px;
+  border: solid 1px #000;
+  text-decoration: none;
+}
+
+.btn:hover{
+	color: #FFF;
+  border: solid 1px #FFF;
+}
+
+.btn-default{
+  background-color: #000;
+  color: #0393FF;
+  padding: 10px 15px;
+  border: solid 1px #0393FF; 
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+.btn-default:hover{
+  background-color: #0393FF;
+  color: #FFF;
+  border: solid 1px #0393FF;
+  text-decoration: none;
+}
+
+.jumbotron .container .header img{
+  height: 35px;
+  width: 180px;
+}
+
+.jumbotron .container .main{
+  text-align: center;
+}
+
+.jumbotron .container .main h1{
+  font-size: 4em;
+  color: #FFF;
+  padding: 80px 0 80px 0;
+}
+
+.jumbotron .container .main .form-inline{
+	padding: 60px 0 60px 0;
+}
+
+.jumbotron .container .main .form-inline input{
+  background-color: #000;
+  border: none;
+  border-bottom: solid 2px #FFF;
+  width: 520px;
+}
+
+.jumbotron .container .main .form-inline input:hover{
+  border-bottom: solid 1px #0393FF;
+}
+
+
+
+.supporting {
+  background: url(https://s3.amazonaws.com/codecademy-content/projects/bolt-network/diagmonds_@2X.png);
+  background-size: 141px 142px;
+  background-color: #152B39;
+  text-align: center;
+  color: #FFF;
+}
+
+h2{
+  padding-top: 90px;
+  color: #0393E8;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+h4{
+  padding-bottom: 80px;
+}
+
+.supporting .thumbnail{
+  border: none;
+  background: none;
+}
+
+.feature{
+  background: url(https://s3.amazonaws.com/codecademy-content/projects/bolt-network/feature.jpg) no-repeat center center;
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  height: 300px;
+}
+
+.feature .container h4{
+  color: #FFF;
+}
+
+.footer{
+  height: 250px;
+  background-color: #000;
+}
+
+.footer .container .col-md-3{
+  
+}
+
+.footer .container h4{
+  padding: 40px 0 20px 0;
+  color: #FFF;
+}
+
+.footer .container ul{
+  padding: 0;
+}
+
+.footer .container li{
+  font-family: "Oxygen";
+  list-style: none;
+  color: #0392E6;
+  line-height: 24px;
+}
